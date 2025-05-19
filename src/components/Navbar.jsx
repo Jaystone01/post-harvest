@@ -27,10 +27,10 @@ function Navbar() {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex space-x-6 text-sm font-medium text-gray-800">
-        <li><Link href="/storagetips">STORAGE TIPS</Link></li>
-        <li><Link href="/storagecenters">STORAGE CENTERS</Link></li>
-        <li><Link href="/testimonials">NEWS</Link></li>
-        <li><Link href="/aboutus">ABOUT US</Link></li>
+        <li><Link to="/storagetips">STORAGE TIPS</Link></li>
+        <li><Link to="/storagecenters">STORAGE CENTERS</Link></li>
+        <li><Link to="/testimonials">NEWS</Link></li>
+        <li><Link to="/aboutus">ABOUT US</Link></li>
       </ul>
 
       {/* Buttons (Desktop) */}
