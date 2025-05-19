@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sky-green: #F2FEED;
+  --color-summar-green:  #D8FCC7;
+  --color-yellow-green: #80B918;
+  --color-dark-green: #014433;
+  --color-newmont-green: #AACC00;
+
+}
+
+@font-face {
+  font-family: Montserrat400;
+  src: url('./font-family/Montserrat-Regular.ttf') format('ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat500;
+  src: url('./font-family/Montserrat-Medium.ttf') format('ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat600;
+  src: url('./font-family/Montserrat-Bold.ttf') format('ttf'); 
+}
+
+@font-face {
+  font-family: Poppins400;
+  src: url('./font-family/Poppins-Regular.ttf') format('ttf'); 
+}
+
+@font-face {
+  font-family: Poppins500;
+  src: url('./font-family/Poppins-Medium.ttf') format('ttf'); 
+}
+
+@font-face {
+  font-family: Poppins600;
+  src: url('./font-family/Poppins-Bold.ttf') format('ttf'); 
+}
+
+
+
+
