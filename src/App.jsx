@@ -39,8 +39,10 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/tomato" element={<TomatoDetails />} />
-        <Route path="/maize" element={<MaizeDetails />} />
+        <Route path="/storagetips" element={<StorageTips />} />
+        <Route path="/storagecenters" element={<StorageLocations />} />
+        <Route path="/testimonials" element={<Testimonial />} />
+        <Route path="/aboutus" element={<Footer />} />
         <Route path="/onion" element={<OnionDetail />} />
         <Route path="/yams" element={<YamsDetails />} />
         <Route path="/login" element={<Login />} />

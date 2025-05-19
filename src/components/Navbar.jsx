@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../assets/Logo.png';
 import { Menu, X } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
@@ -26,10 +27,10 @@ function Navbar() {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex space-x-6 text-sm font-medium text-gray-800">
-        <li><a href="#storagetips">STORAGE TIPS</a></li>
-        <li><a href="#storagecenters">STORAGE CENTERS</a></li>
-        <li><a href="#testimonials">NEWS</a></li>
-        <li><a href="#aboutus">ABOUT US</a></li>
+        <li><Link href="/storagetips">STORAGE TIPS</Link></li>
+        <li><Link href="/storagecenters">STORAGE CENTERS</Link></li>
+        <li><Link href="/testimonials">NEWS</Link></li>
+        <li><Link href="/aboutus">ABOUT US</Link></li>
       </ul>
 
       {/* Buttons (Desktop) */}
